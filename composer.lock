@@ -1,0 +1,108 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "008300c4c5c0d183fddf22fd7f3b71db",
+    "packages": [
+        {
+            "name": "msztorc/php-dpd-api",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msztorc/php-dpd-api.git",
+                "reference": "61adc501dea51a62edcf4907b04c9a7825f106d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msztorc/php-dpd-api/zipball/61adc501dea51a62edcf4907b04c9a7825f106d6",
+                "reference": "61adc501dea51a62edcf4907b04c9a7825f106d6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "config.php"
+                ],
+                "psr-4": {
+                    "DPD\\Services\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miroslaw Sztorc",
+                    "email": "mirek.sztorc@gmail.com"
+                }
+            ],
+            "description": "DPD Api",
+            "support": {
+                "issues": "https://github.com/msztorc/php-dpd-api/issues",
+                "source": "https://github.com/msztorc/php-dpd-api/tree/master"
+            },
+            "time": "2017-12-20T10:48:10+00:00"
+        },
+        {
+            "name": "tpay-com/tpay-php",
+            "version": "2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tpay-com/tpay-php.git",
+                "reference": "5931ac731cd7205cbc45940afb0735a76e6d9e4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tpay-com/tpay-php/zipball/5931ac731cd7205cbc45940afb0735a76e6d9e4d",
+                "reference": "5931ac731cd7205cbc45940afb0735a76e6d9e4d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "extra": [
+                {
+                    "engine": "PHP SDK"
+                }
+            ],
+            "autoload": {
+                "classmap": [
+                    "tpayLibs/src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "tpay.com",
+                    "homepage": "https://tpay.com"
+                }
+            ],
+            "description": "tpay.com library",
+            "support": {
+                "issues": "https://github.com/tpay-com/tpay-php/issues",
+                "source": "https://github.com/tpay-com/tpay-php/tree/2.3.2"
+            },
+            "time": "2022-06-23T09:38:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "msztorc/php-dpd-api": "^2.1",
+        "tpay-com/tpay-php": "^2.3"
+    }
+}

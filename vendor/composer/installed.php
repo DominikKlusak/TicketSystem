@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'msztorc/php-dpd-api' => array(
+            'pretty_version' => '2.1',
+            'version' => '2.1.0.0',
+            'reference' => '61adc501dea51a62edcf4907b04c9a7825f106d6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../msztorc/php-dpd-api',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tpay-com/tpay-php' => array(
+            'pretty_version' => '2.3.2',
+            'version' => '2.3.2.0',
+            'reference' => '5931ac731cd7205cbc45940afb0735a76e6d9e4d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tpay-com/tpay-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
